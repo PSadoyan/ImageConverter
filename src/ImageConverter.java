@@ -78,7 +78,6 @@ public class ImageConverter {
 		System.out.println("Please input an image type to convert to: ");
 		String option = input.next();
 		
-		
 		try {
 			File output = new File(fileLocation + "\\" + "ImageConverterOutput." + option);
 			ImageIO.write(image, findingType[findingType.length-1], output);

@@ -8,7 +8,7 @@ public class ImageConverterTest {
 		
 	@Before
 	public void setUp() throws Exception {
-		;
+		
 	}
 		
 	@Test
